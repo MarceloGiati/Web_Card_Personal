@@ -1,0 +1,43 @@
+
+@media (width <= 768px){
+    .container .email-signature{
+        flex-flow: column;
+        width: 90%;
+    }
+
+    .container .email-signature .image::before{
+        width: 100%;
+        box-shadow: 0 15px 0 var(--blue);
+        top: -17%;
+        left: 0;
+        border-radius: 0 0 50px 50px;
+    }
+
+    .container .email-signature .image img{ 
+        right: 0;
+    } 
+
+    .container .email-signature .content{
+        width: 100%;
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    .container .email-signature .content .contact li{
+       text-align: left; 
+    }
+
+    .container .email-signature .content .icons{
+        top: 93%;
+        right: 0;
+        width: 100%;
+        flex-flow: row;
+        justify-content: center;
+    }
+
+    .container .email-signature .content .icons a{
+        margin: 0 15px;
+    }
+
+
+}

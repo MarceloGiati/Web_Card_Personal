@@ -101,10 +101,14 @@
     border-radius: 50%;
     line-height: 40px;
     text-align: center;
-    background: var(--blue);
+    /* background: var(--blue); */ 
     margin-left: 10px;
-
+    /* filter: invert(); */
 }  
+
+/* .container .email-signature .content .contact li i{
+    filter: invert();
+} */
 
 .container .email-signature .content .icons{
   position: absolute;

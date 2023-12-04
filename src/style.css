@@ -100,15 +100,11 @@
     color: var(--color); */
     border-radius: 50%;
     line-height: 40px;
-    text-align: center;
-    /* background: var(--blue); */ 
-    margin-left: 10px;
+    text-align: center; margin-left: 10px;
+    /* 
+    background: var(--blue);  */
     /* filter: invert(); */
 }  
-
-/* .container .email-signature .content .contact li i{
-    filter: invert();
-} */
 
 .container .email-signature .content .icons{
   position: absolute;
